@@ -690,6 +690,7 @@ a.thumbnail:hover{border-color:#0088cc;-webkit-box-shadow:0 1px 4px rgba(0, 105,
 .invisible{visibility:hidden;}
 addr{color: #dddddd;}
 </style>
+<div id = "main" style="font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif; font-size: 13px;">
 <div id = "header">
   <p>Hi PD managers,</p>
   <p>Sonar quality metrics. </p>
@@ -736,7 +737,7 @@ addr{color: #dddddd;}
 			                        #set ($critical = $attributeMap["critical"])
 			                        #set ($major = $attributeMap["major"])
 			                        <tr>
-					                  <td><a href="$project.url">$project.projectName</a></td>
+					                  <td><a href="$project.url" style="color: #0088cc;text-decoration: none;">$project.projectName</a></td>
 					                  <td>$coverage</td>
 					                  <td>$ruleCompliance</td>
 					                  <td>$blocker</td>
@@ -755,6 +756,7 @@ addr{color: #dddddd;}
     Please let me know if you have any questions.</br>
 	Thanks,</br>
 	Rachel Zhou </br>
-	<addr>TEL：+86-21-2891- 3605</addr>
+	<addr>TEL: +86-21-2891- 3605</addr>
     </p>
 </div>    
+</div>
