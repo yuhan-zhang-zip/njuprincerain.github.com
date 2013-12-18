@@ -40,3 +40,7 @@ The master and gh-pages branch do not share the same ancestry. Please treat them
 ## License
 
 [Creative Commons](http://creativecommons.org/licenses/by-nc-sa/3.0/)
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/njuprincerain/njuprincerain.github.com/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
